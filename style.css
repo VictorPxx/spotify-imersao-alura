@@ -1,3 +1,7 @@
+body{
+    background-color: #000;
+}
+
 .sidebar{
     position:fixed;
     top:0;
@@ -39,13 +43,11 @@
     font-weight: 600;
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
-    display: flex;
-    gap: 12px;
 }
 
-.library {
-    background-color: #121212;
-    border-radius: 8px;
+.library{
+    background-color:#121212;
+    border-radius:8px;
     display:flex;
     justify-content: space-between;
     flex-direction: column;
@@ -61,7 +63,7 @@
     justify-content: space-between;
 }
 
-.library .library__button{
+.library .library__button {
     display:flex;
     margin-right: 10px;
     color:#b3b3b3;
